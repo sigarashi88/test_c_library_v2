@@ -1,7 +1,7 @@
 #pragma once
 // MESSAGE RESET_POSITION_LOCAL_NED PACKING
 
-#define MAVLINK_MSG_ID_RESET_POSITION_LOCAL_NED 50505
+#define MAVLINK_MSG_ID_RESET_POSITION_LOCAL_NED 196
 
 
 typedef struct __mavlink_reset_position_local_ned_t {
@@ -14,17 +14,17 @@ typedef struct __mavlink_reset_position_local_ned_t {
 
 #define MAVLINK_MSG_ID_RESET_POSITION_LOCAL_NED_LEN 15
 #define MAVLINK_MSG_ID_RESET_POSITION_LOCAL_NED_MIN_LEN 15
-#define MAVLINK_MSG_ID_50505_LEN 15
-#define MAVLINK_MSG_ID_50505_MIN_LEN 15
+#define MAVLINK_MSG_ID_196_LEN 15
+#define MAVLINK_MSG_ID_196_MIN_LEN 15
 
 #define MAVLINK_MSG_ID_RESET_POSITION_LOCAL_NED_CRC 133
-#define MAVLINK_MSG_ID_50505_CRC 133
+#define MAVLINK_MSG_ID_196_CRC 133
 
 
 
 #if MAVLINK_COMMAND_24BIT
 #define MAVLINK_MESSAGE_INFO_RESET_POSITION_LOCAL_NED { \
-    50505, \
+    196, \
     "RESET_POSITION_LOCAL_NED", \
     5, \
     {  { "target_system", NULL, MAVLINK_TYPE_UINT8_T, 0, 14, offsetof(mavlink_reset_position_local_ned_t, target_system) }, \
